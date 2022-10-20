@@ -1,0 +1,62 @@
+name: oranos
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  equatable:
+  flutter_bloc:
+  get_it:
+  flutter_svg: ^1.1.4
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    # - assets/images/
+    - assets/images/appIcon.png
+    - assets/images/on_boarding/onBoardingBackground.png
+    - assets/images/on_boarding/onBoardingBot.png
+    - assets/images/on_boarding/onBoardingPath.png
+    - assets/images/chat/chat_bot_icon.png
+    - assets/images/chat/seen_icon.svg
+    - assets/images/chat/send.svg
+    - assets/images/chat/voice.svg
+    - assets/images/experts/kareem.png
+    - assets/images/experts/merna.png
+    - assets/images/experts/Home.png
+    - assets/images/experts/Profile.png
+    - assets/images/experts/Star.png
+    - assets/images/experts/Wallet.png
+    - assets/images/experts/catIcon.png
+
+
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
